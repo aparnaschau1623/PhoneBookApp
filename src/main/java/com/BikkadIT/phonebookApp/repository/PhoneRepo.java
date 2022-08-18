@@ -1,5 +1,9 @@
 package com.BikkadIT.phonebookApp.repository;
 
-public interface PhoneRepo {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.BikkadIT.phonebookApp.model.ContactDetails;
+
+public interface PhoneRepo extends JpaRepository<ContactDetails, Integer> {
 
 }
