@@ -6,7 +6,7 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 
 @Entity
-public class ContactDetails {
+public class Contact {
 
 	@Id
 	public Integer contactId;
